@@ -1,4 +1,8 @@
 from distutils.core import setup
+import subprocess
+
+subprocess.call(["git", 'submodule', 'init'])
+subprocess.call(["git", 'submodule', 'update'])
 
 setup (name = 'hash-ring',
                 version = '1.0',
