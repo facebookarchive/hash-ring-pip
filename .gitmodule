@@ -1,0 +1,3 @@
+[submodule "hash-ring"]
+        path = hash-ring
+        url = git://github.com/mikeyk/hash-ring.git
